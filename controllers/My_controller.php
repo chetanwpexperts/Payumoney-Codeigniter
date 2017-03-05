@@ -22,8 +22,8 @@ public function __construct() {
     //payumoney details
     
     
-        $MERCHANT_KEY = ""; //change  merchant with yours
-        $SALT = "";  //change salt with yours 
+        $MERCHANT_KEY = "SYMBk2HQ"; //change  merchant with yours
+        $SALT = "dxmk9SZZ9y";  //change salt with yours 
 
         $txnid = substr(hash('sha256', mt_rand() . microtime()), 0, 20);
         //optional udf values 
