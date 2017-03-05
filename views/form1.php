@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en" class="loading">
     <head>
         <meta charset="utf-8">
-        <link rel="icon" href="<?= base_url() ?>assets/img/favicon.png">
+        <link rel="icon" href="img/favicon.png">
         <title>Payumoney Codeigniter</title>   
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
          
