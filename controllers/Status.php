@@ -18,7 +18,7 @@ public function index() {
         $key = $this->input->post('key');
         $productinfo = $this->input->post('productinfo');
         $email = $this->input->post('email');
-        $salt = "eCwWELxi";
+        $salt = "dxmk9SZZ9y"; //  Your salt
         $add = $this->input->post('additionalCharges');
         If (isset($add)) {
             $additionalCharges = $this->input->post('additionalCharges');
