@@ -36,9 +36,9 @@ public function __construct() {
          $hashstring = $MERCHANT_KEY . '|' . $txnid . '|' . $amount . '|' . $product_info . '|' . $customer_name . '|' . $customer_emial . '|' . $udf1 . '|' . $udf2 . '|' . $udf3 . '|' . $udf4 . '|' . $udf5 . '||||||' . $SALT;
          $hash = strtolower(hash('sha512', $hashstring));
          
-       $success = base_url() . 'Status/sucess/';  
-        $fail = base_url() . 'Status/failure/';
-        $cancel = base_url() . 'Status/failure/';
+       $success = base_url() . 'Status';  
+        $fail = base_url() . 'Status';
+        $cancel = base_url() . 'Status';
         
         
          $data = array(
