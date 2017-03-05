@@ -52,7 +52,7 @@ public function __construct() {
             'mailid' => $customer_emial,
             'phoneno' => $customer_mobile,
             'address' => $customer_address,
-            'action' => "https://test.payu.in",
+            'action' => "https://test.payu.in", //for live change action  https://secure.payu.in
             'sucess' => $success,
             'failure' => $fail,
             'cancel' => $cancel            
