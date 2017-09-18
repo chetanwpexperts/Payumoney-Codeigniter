@@ -44,9 +44,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div class="form-group">
                             <input name="surl" value="<?= $sucess ?>" size="64" type="hidden" />
-                            <input name="furl" value="<?= $failure ?>" size="64" type="hidden" />  
-                            <!--for test environment comment  service provider   -->
-                            <!--input type="hidden" name="service_provider" value="payu_paisa" size="64" /--> 
+                            <input name="furl" value="<?= $failure ?>" size="64" type="hidden" />                             
+                            <input type="hidden" name="service_provider" value="" size="64" /> 
                             <input name="curl" value="<?= $cancel ?> " type="hidden" />
                         </div>
                         <div class="form-group text-center">
