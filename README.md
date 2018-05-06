@@ -1,4 +1,4 @@
-# Payumoney_Codeigniter
+# Payumoney Codeigniter
 Payumoney payment gateway integration in Codeigniter PHP
 
 # Step1 
@@ -10,6 +10,6 @@ Clone This repository and edit $MERCHANT_KEY and $SALT with your marchant key an
 # feedback 
 If you find any difficulty in integration open a issue.
 
-Krishna
+Krishna Ganisetti
 http://www.gvkit.com
 
