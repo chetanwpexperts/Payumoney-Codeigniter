@@ -11,5 +11,5 @@ Clone This repository and edit $MERCHANT_KEY and $SALT with your marchant key an
 If you find any difficulty in integration open a issue.
 
 Krishna Ganisetti
-http://www.gvkit.com
+https://www.gvkit.com
 
